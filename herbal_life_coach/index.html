@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herbal Weight Loss Coach | Manoj Gupta | Natural Transformation</title>
+  <meta
+    name="description"
+    content="Transform your body naturally with Herbal Life Coach Manoj Gupta. Personalized herbal nutrition, weight loss programs, lifestyle coaching & online consultations."
+  />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Transform Your Body Naturally | Herbal Life Coach Manoj Gupta" />
+  <meta
+    property="og:description"
+    content="Natural, herbal-based weight loss & lifestyle transformation for busy professionals with Herbal Life Coach Manoj Gupta."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Herbal+Life+Coach" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Custom Config (in-browser) -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#ecfdf3',
+              100: '#d1fadf',
+              200: '#a6f4c5',
+              300: '#6ce9a6',
+              400: '#32d583',
+              500: '#12b76a',
+              600: '#039855',
+              700: '#027a48',
+              800: '#05603a',
+              900: '#054f31',
+            },
+            accent: {
+              100: '#f4f3ff',
+              200: '#e0e7ff',
+            },
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Custom Styles -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .section-fade {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .section-fade.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .glass-card {
+      backdrop-filter: blur(14px);
+      background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.92),
+        rgba(236, 253, 245, 0.96)
+      );
+    }
+  </style>
+
+  <!-- Schema.org Local Business Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Manoj Gupta - Herbal Life Coach",
+      "image": "https://via.placeholder.com/600x400.png?text=Manoj+Gupta",
+      "description": "Herbal life coach specializing in natural weight loss, herbal nutrition, and lifestyle transformation.",
+      "telephone": "+91 7908760095",
+      "email": "mkg110772@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "areaServed": "India",
+      "url": "https://example.com/",
+      "sameAs": []
+    }
+  </script>
+</head>
+<body class="bg-gradient-to-b from-primary-50 via-white to-accent-100 text-slate-900 antialiased">
+
+  <!-- Sticky WhatsApp Floating Button -->
+  <a
+    href="https://wa.me/917908760095?text=Hi%20Manoj%2C%20I%20am%20interested%20in%20natural%20weight%20loss%20coaching."
+    target="_blank"
+    rel="noopener"
+    class="fixed bottom-5 right-5 z-40 flex items-center gap-2 rounded-full bg-green-500 px-4 py-3 text-white shadow-xl shadow-green-500/40 hover:bg-green-600 transition transform hover:-translate-y-1"
+  >
+    <span class="inline-block h-5 w-5 rounded-full bg-white text-xs text-green-500 flex items-center justify-center font-bold">
+      W
+    </span>
+    <span class="hidden sm:inline text-sm font-semibold">WhatsApp Now</span>
+  </a>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-30 bg-white/80 backdrop-blur border-b border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="h-9 w-9 rounded-2xl bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center text-white font-bold text-lg shadow-md">
+          MG
+        </div>
+        <div>
+          <p class="font-semibold text-slate-900 text-sm sm:text-base">Manoj Gupta</p>
+          <p class="text-xs sm:text-sm text-slate-500">Herbal Life Coach</p>
+        </div>
+      </div>
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#services" class="text-slate-600 hover:text-primary-700 transition">Services</a>
+        <a href="#benefits" class="text-slate-600 hover:text-primary-700 transition">Benefits</a>
+        <a href="#process" class="text-slate-600 hover:text-primary-700 transition">Process</a>
+        <a href="#testimonials" class="text-slate-600 hover:text-primary-700 transition">Results</a>
+        <a href="#contact" class="text-slate-600 hover:text-primary-700 transition">Contact</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <a
+          href="tel:+917908760095"
+          class="hidden sm:inline-flex items-center rounded-full border border-primary-100 bg-primary-50 px-3 py-1.5 text-xs font-semibold text-primary-700 hover:bg-primary-100 transition"
+        >
+          Call: +91 79087 60095
+        </a>
+        <button
+          onclick="scrollToForm()"
+          class="inline-flex items-center rounded-full bg-primary-600 px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow-lg shadow-primary-500/40 hover:bg-primary-700 transition"
+        >
+          Contact Now
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10 opacity-70">
+        <div class="absolute -top-32 -left-24 h-72 w-72 rounded-full bg-primary-200 blur-3xl"></div>
+        <div class="absolute -bottom-40 -right-16 h-80 w-80 rounded-full bg-emerald-200 blur-3xl"></div>
+      </div>
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+        <div class="grid gap-10 lg:grid-cols-2 items-center section-fade">
+          <div>
+            <span class="inline-flex items-center rounded-full bg-primary-50 border border-primary-100 px-3 py-1 text-xs font-semibold text-primary-700 mb-4">
+              Natural • Herbal • Sustainable
+            </span>
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 mb-4">
+              Transform Your Body <span class="text-primary-600">Naturally</span>
+            </h1>
+            <p class="text-base sm:text-lg text-slate-600 mb-6 max-w-xl">
+              Burn stubborn fat, boost energy and reset your lifestyle with a personalized
+              <span class="font-semibold text-slate-800">herbal weight loss plan</span>, guided step-by-step by
+              Manoj Gupta – your dedicated Herbal Life Coach.
+            </p>
+            <ul class="text-sm sm:text-base text-slate-600 space-y-2 mb-8">
+              <li class="flex items-start gap-2">
+                <span class="mt-1 h-4 w-4 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-[10px] font-bold">✓</span>
+                <span>Designed for busy professionals and homemakers (ages 25–55).</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="mt-1 h-4 w-4 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-[10px] font-bold">✓</span>
+                <span>Targets belly fat, low energy, and unhealthy eating patterns.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="mt-1 h-4 w-4 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-[10px] font-bold">✓</span>
+                <span>100% herbal approach – no harsh medicines or crash diets.</span>
+              </li>
+            </ul>
+            <div class="flex flex-wrap items-center gap-3 mb-6">
+              <button
+                onclick="scrollToForm()"
+                class="inline-flex w-full sm:w-auto items-center justify-center rounded-full bg-primary-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary-500/40 hover:bg-primary-700 transition transform hover:-translate-y-0.5"
+              >
+                Contact Now
+              </button>
+              <a
+                href="https://wa.me/917908760095?text=Hi%20Manoj%2C%20I%20would%20like%20to%20book%20a%20free%20herbal%20weight%20loss%20consultation."
+                target="_blank"
+                rel="noopener"
+                class="inline-flex w-full sm:w-auto items-center justify-center rounded-full border border-primary-200 bg-white px-5 py-3 text-sm font-semibold text-primary-700 hover:bg-primary-50 transition"
+              >
+                WhatsApp Now
+              </a>
+              <a
+                href="tel:+917908760095"
+                class="inline-flex w-full sm:w-auto items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2 text-xs sm:text-sm font-semibold text-slate-700 hover:bg-slate-50 transition"
+              >
+                Call Now: +91 79087 60095
+              </a>
+            </div>
+            <div class="flex flex-wrap items-center gap-4 text-xs text-slate-500">
+              <div class="flex items-center gap-2">
+                <span class="h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
+                <span>Manoj personally responds to each enquiry</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-[11px] font-medium text-amber-700 border border-amber-100">
+                  Personalized Plans • Online & Offline
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image / Card -->
+          <div class="relative">
+            <div class="glass-card rounded-3xl p-6 sm:p-8 shadow-xl section-fade">
+              <div class="flex items-center gap-4 mb-6">
+                <div class="h-16 w-16 rounded-3xl bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center text-white text-2xl font-bold shadow-lg">
+                  MG
+                </div>
+                <div>
+                  <p class="font-semibold text-lg text-slate-900">Manoj Gupta</p>
+                  <p class="text-sm text-slate-500">Herbal Life Coach & Wellness Mentor</p>
+                  <p class="mt-1 text-xs text-primary-700 font-medium">
+                    Specialist in Herbal Weight Loss & Lifestyle Transformation
+                  </p>
+                </div>
+              </div>
+              <div class="rounded-2xl bg-gradient-to-tr from-emerald-50 via-white to-primary-50 border border-primary-100 p-4 mb-6">
+                <p class="text-sm text-slate-600">
+                  “My mission is to help you lose weight the <span class="font-semibold">natural way</span> –
+                  without starving, without extreme workouts, and without harming your health.”
+                </p>
+              </div>
+              <div class="space-y-3 text-sm text-slate-600">
+                <div class="flex items-start gap-3">
+                  <span class="mt-1 h-6 w-6 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-xs font-bold">1</span>
+                  <p>Understand your current lifestyle, health history, and weight goals.</p>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="mt-1 h-6 w-6 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-xs font-bold">2</span>
+                  <p>Design a tailored herbal nutrition and lifestyle plan just for you.</p>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="mt-1 h-6 w-6 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-xs font-bold">3</span>
+                  <p>Guide, track, and support you till you reach sustainable results.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Decorative Card -->
+            <div class="absolute -bottom-8 -right-4 hidden sm:block">
+              <div class="rounded-2xl bg-white shadow-lg border border-slate-100 px-4 py-3 flex items-center gap-3">
+                <div class="h-8 w-8 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600 text-sm font-bold">
+                  ★
+                </div>
+                <div class="text-xs">
+                  <p class="font-semibold text-slate-800">Natural results</p>
+                  <p class="text-slate-500">No crash diets • No steroids</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 sm:py-16 lg:py-20">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 section-fade">
+        <div class="grid gap-10 lg:grid-cols-[1.3fr_1fr] items-start">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">About Manoj Gupta</h2>
+            <p class="text-primary-700 font-semibold text-sm mb-4">
+              Herbal Life Coach • Natural Weight Loss Mentor • Lifestyle Transformation Guide
+            </p>
+            <p class="text-sm sm:text-base text-slate-600 mb-4">
+              Manoj Gupta is a dedicated <span class="font-semibold">Herbal Life Coach</span> helping people break
+              free from years of weight gain, low energy, and unhealthy habits – using <span class="font-semibold">safe,
+              plant-based nutrition</span> and practical lifestyle changes.
+            </p>
+            <p class="text-sm sm:text-base text-slate-600 mb-4">
+              Instead of harsh medicines or impossible workouts, Manoj focuses on <span class="font-semibold">
+              gentle but powerful changes</span> in your food, routine, and mindset – supported by high-quality herbal
+              nutrition supplements (where required).
+            </p>
+            <div class="grid sm:grid-cols-2 gap-4 mt-4">
+              <div class="rounded-2xl border border-emerald-100 bg-emerald-50/70 px-4 py-3">
+                <p class="text-xs text-slate-500">Focus</p>
+                <p class="text-lg font-bold text-emerald-700">Natural Weight Loss</p>
+                <p class="text-xs text-slate-500 mt-1">with herbal nutrition</p>
+              </div>
+              <div class="rounded-2xl border border-slate-100 bg-white px-4 py-3">
+                <p class="text-xs text-slate-500">Approach</p>
+                <p class="text-lg font-bold text-slate-800">Personalized</p>
+                <p class="text-xs text-slate-500 mt-1">1:1 guidance & follow-up</p>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <div class="rounded-2xl border border-slate-100 bg-white shadow-sm p-4">
+              <h3 class="text-sm font-semibold text-slate-900 mb-2">Why the Herbal Approach Works</h3>
+              <ul class="text-xs sm:text-sm text-slate-600 space-y-1.5">
+                <li>✔ Supports metabolism and fat burning naturally.</li>
+                <li>✔ Helps manage cravings and emotional eating.</li>
+                <li>✔ Improves digestion, gut health, and energy levels.</li>
+                <li>✔ Easy to follow for busy working professionals.</li>
+                <li>✔ Focuses on long-term <span class="font-semibold">sustainable</span> results.</li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-primary-100 bg-primary-50/70 p-4">
+              <p class="text-xs text-primary-800 font-semibold mb-1">Mission Statement</p>
+              <p class="text-sm text-primary-900">
+                “To empower 10,000+ people to feel light, confident, and energetic again –
+                using simple, herbal-based lifestyle changes that fit into real life.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-emerald-50 via-white to-emerald-50/60">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 section-fade">
+        <div class="text-center mb-10">
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Programs & Services</h2>
+          <p class="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
+            Whether you want to lose 5 kg or 25 kg, there’s a <span class="font-semibold">structured, herbal-based plan</span>
+            tailored to your body, lifestyle, and goals.
+          </p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-3">
+          <!-- Card 1 -->
+          <div class="group rounded-3xl border border-emerald-100 bg-white/90 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition transform">
+            <h3 class="text-lg font-semibold text-slate-900 mb-2">Weight Loss Programs</h3>
+            <p class="text-sm text-slate-600 mb-4">
+              Structured 4–12 week herbal weight loss programs designed to burn fat while protecting your health.
+            </p>
+            <ul class="text-xs text-slate-600 space-y-1.5 mb-4">
+              <li>✔ Progress tracking & regular check-ins</li>
+              <li>✔ Belly fat & inch loss focus</li>
+              <li>✔ Suitable for men & women (25–55)</li>
+            </ul>
+            <button
+              onclick="scrollToForm()"
+              class="mt-auto inline-flex items-center text-xs font-semibold text-primary-700 group-hover:text-primary-800"
+            >
+              Talk to Manoj →
+            </button>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="group rounded-3xl border border-primary-100 bg-primary-50/80 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition transform">
+            <h3 class="text-lg font-semibold text-slate-900 mb-2">Herbal Nutrition Plan</h3>
+            <p class="text-sm text-slate-600 mb-4">
+              Customized herbal nutrition plans that complement your meals and support fat loss and energy.
+            </p>
+            <ul class="text-xs text-slate-600 space-y-1.5 mb-4">
+              <li>✔ Herbal supplements (as required)</li>
+              <li>✔ Simple, practical food guidance</li>
+              <li>✔ Works with Indian home-cooked meals</li>
+            </ul>
+            <p class="inline-flex items-center text-[11px] font-semibold text-primary-800 bg-white/70 border border-primary-100 rounded-full px-3 py-1">
+              Most Popular for Busy Professionals
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="group rounded-3xl border border-slate-100 bg-white/90 p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition transform">
+            <h3 class="text-lg font-semibold text-slate-900 mb-2">Lifestyle & Online Coaching</h3>
+            <p class="text-sm text-slate-600 mb-4">
+              1:1 coaching sessions (online or offline) to rebuild your lifestyle and stay accountable.
+            </p>
+            <ul class="text-xs text-slate-600 space-y-1.5 mb-4">
+              <li>✔ Habit & routine correction</li>
+              <li>✔ Stress & sleep guidance</li>
+              <li>✔ WhatsApp support & follow-ups</li>
+            </ul>
+            <span class="inline-flex items-center text-[11px] font-medium text-emerald-700 bg-emerald-50 border border-emerald-100 rounded-full px-3 py-1">
+              Online & Offline Available
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-12 sm:py-16 lg:py-20">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 section-fade">
+        <div class="text-center mb-10">
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Why Clients Choose Herbal Coaching</h2>
+          <p class="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
+            A premium, natural approach for people who are serious about their health – not just the number on the scale.
+          </p>
+        </div>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-3xl border border-primary-100 bg-primary-50/60 p-4">
+            <p class="text-sm font-semibold text-slate-900 mb-1">100% Natural</p>
+            <p class="text-xs text-slate-600">
+              Herbal ingredients support your body instead of shocking it with chemicals or crash diets.
+            </p>
+          </div>
+          <div class="rounded-3xl border border-emerald-100 bg-emerald-50/70 p-4">
+            <p class="text-sm font-semibold text-slate-900 mb-1">No Side Effects</p>
+            <p class="text-xs text-slate-600">
+              Plans are gentle on digestion, hormones, and energy – suitable for long-term wellness.
+            </p>
+          </div>
+          <div class="rounded-3xl border border-slate-100 bg-white p-4">
+            <p class="text-sm font-semibold text-slate-900 mb-1">Sustainable Results</p>
+            <p class="text-xs text-slate-600">
+              Learn habits you can maintain even after reaching your ideal weight.
+            </p>
+          </div>
+          <div class="rounded-3xl border border-amber-100 bg-amber-50/70 p-4">
+            <p class="text-sm font-semibold text-slate-900 mb-1">Personalised Support</p>
+            <p class="text-xs text-slate-600">
+              1:1 guidance, follow-ups, and WhatsApp support so you never feel alone on the journey.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transformations / Testimonials -->
+    <section id="testimonials" class="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-accent-100 via-white to-primary-50/70">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 section-fade">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 mb-8">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Real People. Real Transformations.</h2>
+            <p class="mt-3 text-sm sm:text-base text-slate-600 max-w-xl">
+              See how clients have achieved natural, sustainable weight loss and renewed energy with Manoj’s guidance.
+            </p>
+          </div>
+          <div class="flex items-center gap-4">
+            <div>
+              <p class="text-xs text-slate-500">Average Rating</p>
+              <p class="text-lg font-bold text-slate-900">4.9 / 5.0</p>
+              <div class="flex text-amber-400 text-lg">
+                ★★★★★
+              </div>
+            </div>
+            <div class="hidden sm:block text-xs text-slate-500">
+              <p>Based on client testimonials & feedback</p>
+              <p class="mt-1 text-emerald-700 font-semibold">Before / After photos available in consultation</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="max-w-3xl mx-auto">
+          <!-- Testimonials Carousel -->
+          <div class="rounded-3xl border border-slate-100 bg-white/90 p-5 sm:p-6 shadow-sm flex flex-col">
+            <div id="testimonial-slider" class="relative flex-1">
+              <!-- Slides injected via JS -->
+            </div>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <button
+                  id="prev-testimonial"
+                  class="h-8 w-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-700 hover:bg-slate-50 transition text-sm"
+                >
+                  ‹
+                </button>
+                <button
+                  id="next-testimonial"
+                  class="h-8 w-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-700 hover:bg-slate-50 transition text-sm"
+                >
+                  ›
+                </button>
+              </div>
+              <div id="testimonial-dots" class="flex items-center gap-1.5">
+                <!-- Dots injected via JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-12 sm:py-16 lg:py-20">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 section-fade">
+        <div class="text-center mb-10">
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Simple 4-Step Process</h2>
+          <p class="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
+            A clear, guided journey from your very first call to long-term, sustainable results.
+          </p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-4">
+          <div class="relative rounded-3xl border border-primary-100 bg-primary-50/80 p-4">
+            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-primary-600 text-white text-xs font-bold mb-3">
+              1
+            </span>
+            <h3 class="text-sm font-semibold text-slate-900 mb-1">Free Consultation</h3>
+            <p class="text-xs text-slate-600">
+              Share your current weight, challenges, lifestyle, and goals. Understand how the herbal approach can help.
+            </p>
+          </div>
+          <div class="relative rounded-3xl border border-emerald-100 bg-emerald-50/80 p-4">
+            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-emerald-600 text-white text-xs font-bold mb-3">
+              2
+            </span>
+            <h3 class="text-sm font-semibold text-slate-900 mb-1">Personalised Plan</h3>
+            <p class="text-xs text-slate-600">
+              Receive a step-by-step herbal nutrition and lifestyle plan customised to your body and routine.
+            </p>
+          </div>
+          <div class="relative rounded-3xl border border-slate-100 bg-white p-4">
+            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-800 text-white text-xs font-bold mb-3">
+              3
+            </span>
+            <h3 class="text-sm font-semibold text-slate-900 mb-1">Monitoring & Guidance</h3>
+            <p class="text-xs text-slate-600">
+              Regular check-ins, adjustments, and WhatsApp support to keep you on track and motivated.
+            </p>
+          </div>
+          <div class="relative rounded-3xl border border-amber-100 bg-amber-50/80 p-4">
+            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-amber-600 text-white text-xs font-bold mb-3">
+              4
+            </span>
+            <h3 class="text-sm font-semibold text-slate-900 mb-1">Sustainable Results</h3>
+            <p class="text-xs text-slate-600">
+              Maintain your new weight and energy levels with simple, lifelong habits – not temporary fixes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-emerald-50/80 via-white to-emerald-50/80">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 section-fade">
+        <div class="text-center mb-10">
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Frequently Asked Questions</h2>
+          <p class="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
+            Honest answers to the most common questions clients ask before starting their journey.
+          </p>
+        </div>
+        <div class="space-y-4">
+          <details class="group rounded-2xl border border-slate-100 bg-white p-4">
+            <summary class="flex items-center justify-between cursor-pointer">
+              <span class="text-sm font-semibold text-slate-900">
+                How long does weight loss usually take?
+              </span>
+              <span class="ml-3 text-slate-400 group-open:rotate-90 transition-transform">›</span>
+            </summary>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600">
+              It depends on your starting point, health condition, and how consistently you follow the plan.
+              On average, clients start noticing visible changes in <span class="font-semibold">4–6 weeks</span>,
+              with deeper transformation over 3–6 months. During your first discussion, Manoj will give
+              you a more personalised expectation.
+            </p>
+          </details>
+
+          <details class="group rounded-2xl border border-slate-100 bg-white p-4">
+            <summary class="flex items-center justify-between cursor-pointer">
+              <span class="text-sm font-semibold text-slate-900">
+                Are the herbal products safe?
+              </span>
+              <span class="ml-3 text-slate-400 group-open:rotate-90 transition-transform">›</span>
+            </summary>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600">
+              Yes. The herbal products recommended are chosen carefully for <span class="font-semibold">
+              safety and quality</span>. They are designed to support metabolism, digestion, and energy
+              in a natural way. If you have any medical condition or are on medication, it will be discussed
+              during your consultation before finalising your plan.
+            </p>
+          </details>
+
+          <details class="group rounded-2xl border border-slate-100 bg-white p-4">
+            <summary class="flex items-center justify-between cursor-pointer">
+              <span class="text-sm font-semibold text-slate-900">
+                Do I need to exercise?
+              </span>
+              <span class="ml-3 text-slate-400 group-open:rotate-90 transition-transform">›</span>
+            </summary>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600">
+              Movement is helpful but you do <span class="font-semibold">not</span> need heavy gym workouts to start.
+              Depending on your current fitness level, Manoj may recommend light walking, stretching, or simple
+              home exercises that fit into your schedule. The core results come from nutrition, herbal support,
+              and lifestyle changes.
+            </p>
+          </details>
+
+          <details class="group rounded-2xl border border-slate-100 bg-white p-4">
+            <summary class="flex items-center justify-between cursor-pointer">
+              <span class="text-sm font-semibold text-slate-900">
+                Is online coaching available?
+              </span>
+              <span class="ml-3 text-slate-400 group-open:rotate-90 transition-transform">›</span>
+            </summary>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600">
+              Yes, <span class="font-semibold">online coaching is fully available</span> via phone, video calls,
+              and WhatsApp. You do not need to be in the same city to work with Manoj. All progress tracking,
+              plan adjustments, and support can be done remotely.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Lead Capture Section -->
+    <section id="contact" class="py-12 sm:py-16 lg:py-20">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 section-fade">
+        <div class="grid gap-8 lg:grid-cols-2 items-start">
+          <div id="consultation-form-section" class="rounded-3xl glass-card border border-primary-100 p-6 sm:p-8 shadow-xl">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">
+              Get in Touch with Manoj
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 mb-6">
+              Prefer talking directly? Use the quick buttons here to call or WhatsApp Manoj and discuss your goals.
+            </p>
+            <div class="flex flex-wrap items-center gap-3">
+              <a
+                href="https://wa.me/917908760095?text=Hi%20Manoj%2C%20I%20just%20visited%20your%20website%20and%20would%20like%20to%20discuss%20a%20herbal%20weight%20loss%20plan."
+                target="_blank"
+                rel="noopener"
+                class="inline-flex w-full sm:w-auto items-center justify-center rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2.5 text-xs sm:text-sm font-semibold text-emerald-800 hover:bg-emerald-100 transition"
+              >
+                Chat on WhatsApp
+              </a>
+              <a
+                href="tel:+917908760095"
+                class="inline-flex w-full sm:w-auto items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-xs sm:text-sm font-semibold text-slate-700 hover:bg-slate-50 transition"
+              >
+                Call Now
+              </a>
+              <a
+                href="mailto:mkg110772@gmail.com"
+                class="inline-flex w-full sm:w-auto items-center justify-center rounded-full border border-primary-100 bg-primary-50 px-5 py-2.5 text-xs sm:text-sm font-semibold text-primary-700 hover:bg-primary-100 transition"
+              >
+                Email Manoj
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="space-y-4">
+            <div class="rounded-3xl border border-slate-100 bg-white p-5 shadow-sm">
+              <h3 class="text-sm font-semibold text-slate-900 mb-3">Contact Details</h3>
+              <div class="space-y-2 text-xs sm:text-sm text-slate-700">
+                <p>
+                  <span class="font-semibold">Phone:</span>
+                  <a href="tel:+917908760095" class="text-primary-700 hover:underline">
+                    +91 79087 60095
+                  </a>
+                </p>
+                <p>
+                  <span class="font-semibold">Email:</span>
+                  <a href="mailto:mkg110772@gmail.com" class="text-primary-700 hover:underline">
+                    mkg110772@gmail.com
+                  </a>
+                </p>
+                <p>
+                  <span class="font-semibold">WhatsApp:</span>
+                  <a
+                    href="https://wa.me/917908760095"
+                    target="_blank"
+                    rel="noopener"
+                    class="text-primary-700 hover:underline"
+                  >
+                    Click to chat instantly
+                  </a>
+                </p>
+              </div>
+              <p class="mt-4 text-[11px] text-slate-500">
+                *Consultation available in English and Hindi. Online sessions available for clients across India and abroad.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-100 bg-white/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
+      <p>© <span id="year"></span> Manoj Gupta – Herbal Life Coach. All rights reserved.</p>
+      <p>Natural weight loss • Herbal nutrition • Lifestyle transformation.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts: Animations, Carousel, Form Validation -->
+  <script>
+    // Smooth scroll to form
+    function scrollToForm() {
+      const el = document.getElementById('consultation-form-section');
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    // Section fade-in on scroll
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+
+    document.querySelectorAll('.section-fade').forEach((section) => {
+      observer.observe(section);
+    });
+
+    // Testimonials carousel
+    const testimonials = [
+      {
+        name: 'Ruchi, 52 – Working Professional',
+        text: '“I lost 8 kg in 10 weeks without feeling weak or deprived. Manoj’s herbal plan fit perfectly into my office schedule and Indian home food.”',
+        meta: 'Weight loss • Belly fat reduction • Better energy'
+      },
+      {
+        name: 'Chintan, 41 – IT Professional',
+        text: '“Long working hours had completely destroyed my routine. Manoj helped me reset my lifestyle with simple habits and herbal support. I feel lighter and more focused.”',
+        meta: 'Improved lifestyle • Inch loss • Better sleep'
+      },
+      {
+        name: 'Neharika, 29 – Young Mother',
+        text: '“Post-pregnancy weight felt impossible to lose. The gentle, herbal approach and regular follow-ups kept me motivated. I am finally fitting into my old clothes again!”',
+        meta: 'Post-pregnancy weight loss • Confidence boost'
+      }
+    ];
+
+    let currentTestimonial = 0;
+
+    const sliderEl = document.getElementById('testimonial-slider');
+    const dotsEl = document.getElementById('testimonial-dots');
+
+    function renderTestimonial(index) {
+      const t = testimonials[index];
+      sliderEl.innerHTML =
+        '<div class="h-full flex flex-col justify-between">' +
+          '<div>' +
+            '<div class="flex items-center gap-2 mb-3">' +
+              '<span class="inline-flex text-amber-400 text-lg">★★★★★</span>' +
+              '<span class="text-[11px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-100 rounded-full px-2 py-0.5">' +
+                'Verified Client' +
+              '</span>' +
+            '</div>' +
+            '<p class="text-sm sm:text-base text-slate-700 mb-3">' + t.text + '</p>' +
+          '</div>' +
+          '<div class="mt-3">' +
+            '<p class="text-sm font-semibold text-slate-900">' + t.name + '</p>' +
+            '<p class="text-xs text-slate-500">' + t.meta + '</p>' +
+          '</div>' +
+        '</div>';
+
+      let dotsHtml = '';
+      testimonials.forEach((_, i) => {
+        const isActive = i === index;
+        dotsHtml += '<button class="h-1.5 rounded-full ' +
+          (isActive ? 'w-6 bg-slate-900' : 'w-2 bg-slate-300') +
+          ' transition-all" aria-label="Go to testimonial ' + (i + 1) + '"></button>';
+      });
+      dotsEl.innerHTML = dotsHtml;
+
+      Array.from(dotsEl.children).forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+          currentTestimonial = i;
+          renderTestimonial(currentTestimonial);
+        });
+      });
+    }
+
+    document.getElementById('prev-testimonial').addEventListener('click', () => {
+      currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+      renderTestimonial(currentTestimonial);
+    });
+
+    document.getElementById('next-testimonial').addEventListener('click', () => {
+      currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+      renderTestimonial(currentTestimonial);
+    });
+
+    renderTestimonial(currentTestimonial);
+
+    // Auto-rotate testimonials every 8 seconds
+    setInterval(() => {
+      currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+      renderTestimonial(currentTestimonial);
+    }, 8000);
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
